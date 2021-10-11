@@ -13,8 +13,8 @@ import com.mydailyjournal.ui.activities.home.HomeActivity
  class MyNotificationIntentService : IntentService("MyNewIntentService") {
     override fun onHandleIntent(intent: Intent?) {
         val builder: Notification.Builder = Notification.Builder(this)
-        builder.setContentTitle("My Title")
-        builder.setContentText("This is the Body")
+        builder.setContentTitle("Are you ready ?")
+        builder.setContentText("Tell me about your day...")
         builder.setSmallIcon(R.drawable.icon)
         val notifyIntent = Intent(this, HomeActivity::class.java)
         val pendingIntent =

@@ -64,16 +64,21 @@ class LoginFragment : Fragment() {
         registerViewModel.fetchRegisterLogger.observe(viewLifecycleOwner, Observer { user ->
             if (user.isNotEmpty()) {
                 for (i in user.indices) {
-                    Log.i("TAG", "loginLogger: "+user[i]+"   "+loggerNameEmail)
-                    if (user[i].email == loggerNameEmail) {
+                    if (user[i].fullName == loggerNameEmail) {
                         if (user[i].password == loggerPassword) {
                             userPrefManager.loggedInLoggerName = loggerNameEmail
                             userPrefManager.loggedInDate   = loggerNameEmail
+                          findNavController().navigate(R.id.action_navigation_login_to_navigation_home)
+                            Toast.makeText(
+                                requireContext(),
+                                "Successfully Logged In!!!",
+                                Toast.LENGTH_SHORT
+                            ).show()
 
                         } else {
                             Toast.makeText(
                                 requireContext(),
-                                "Passwsord Incorrect...Please try again!!!",
+                                "Password Incorrect...Please try again!!!",
                                 Toast.LENGTH_SHORT
                             ).show()
 

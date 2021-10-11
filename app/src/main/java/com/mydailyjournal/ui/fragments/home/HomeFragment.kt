@@ -50,7 +50,7 @@ class HomeFragment : Fragment() {
         if (userPrefManager!!.loggedInLoggerName != null) {
             binding.userInfo.text = userPrefManager!!.loggedInLoggerName
         } else {
-            binding.userInfo.text = "Welcome Please Sign In to start your journal"
+            binding.userInfo.text = "Welcome...Please Sign in to start\n your journal"
         }
 
 

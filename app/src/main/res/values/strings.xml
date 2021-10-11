@@ -18,7 +18,7 @@
     <string name="have_not_registered_yet_register_now">Have not registered yet?? Register Now</string>
     <string name="add_today_s_journal">Add Today\'s Journal</string>
     <string name="password">Password</string>
-    <string name="name_email_id">Name / Email Id</string>
+    <string name="name_email_id">Name</string>
     <string name="register_diarist">Register Diarist</string>
-    <string name="no_dairist_registered_yet_n_please_register">No Dairist Registered Yet...\n Please Register</string>
+    <string name="no_diarist_registered_yet_n_please_register">No Dairist Registered Yet...\n Please Register</string>
 </resources>
