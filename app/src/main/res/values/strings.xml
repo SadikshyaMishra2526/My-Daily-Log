@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Daily Journal</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="choose_a_picture">Choose a picture</string>
+    <string name="journal_title">Journal Title</string>
+    <string name="journal_entered_date">Journal Entered Date</string>
+    <string name="write_your_journal">Write your journal....</string>
+    <string name="add_journal">Add Journal</string>
+    <string name="entry_date">Entry Date</string>
+    <string name="diarist_login">Diarist Login</string>
+    <string name="diarist_register">Diarist Register</string>
+
+    <string name="profile">Profile</string>
+    <string name="what_s_on_your_mind_today">What\'s on your mind today?</string>
+    <string name="have_not_registered_yet_register_now">Have not registered yet?? Register Now</string>
+    <string name="add_today_s_journal">Add Today\'s Journal</string>
+    <string name="password">Password</string>
+    <string name="name_email_id">Name / Email Id</string>
+    <string name="register_diarist">Register Diarist</string>
+    <string name="no_dairist_registered_yet_n_please_register">No Dairist Registered Yet...\n Please Register</string>
+</resources>

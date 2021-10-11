@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Daily Journal</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="choose_a_picture">Choose a picture</string>
+    <string name="journal_title">Journal Title</string>
+    <string name="journal_entered_date">Journal Entered Date</string>
+    <string name="write_your_journal">Write your journal....</string>
+    <string name="add_journal">Add Journal</string>
+    <string name="entry_date">Entry Date</string>
+    <string name="diarist_list">Diarist List</string>
+    <string name="profile">Profile</string>
+    <string name="journal">Journal</string>
+</resources>
