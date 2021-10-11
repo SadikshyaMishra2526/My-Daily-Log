@@ -12,5 +12,6 @@ data class LogDetails(
     var log_added_date:String,
     var log_description:String,
     var log_image:String,
+    var log_added_at:String,
     var log_added_by:String
 )

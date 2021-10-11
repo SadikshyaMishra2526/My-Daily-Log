@@ -51,11 +51,12 @@ class AddDailyJournal : BottomSheetDialogFragment() {
         val loggedDescription = binding.editTextLogDescription.text.toString()
         val loggedImage = ""
         val joinedDate =getCurrentTimeStamp()
+        val addedBy= userPrefManager?.loggedInLoggerName
 
 
         if (checkValidation(logTitle, loggedDate, loggedDescription, loggedImage)) {
             val logRecorded =
-                LogDetails(0, logTitle, loggedDate, loggedDescription, loggedImage, joinedDate!!)
+                LogDetails(0, logTitle, loggedDate, loggedDescription, loggedImage, joinedDate!!,addedBy!!)
             logViewModel.addDailyLogger(logRecorded)
             Toast.makeText(requireContext(), "Successfully Added today's Log !!!", Toast.LENGTH_SHORT)
                 .show()
